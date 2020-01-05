@@ -1,0 +1,75 @@
+body, html{margin:0px;}
+
+
+h1, p {color: green; /*color - Schriftfarbe */
+}
+
+
+
+
+/* Eine ID beginnt mit einer Raute/Hash-Tag/Doppelkreuz und darf im Dokument nur einmalig verwendet werden (is UNIQUE) */
+
+#schinagl, #peter
+{
+    background-color: gold;
+}
+
+/*Eine Klasse beginnt mit einem Punkt und darf im HTML Dokument beliebig oft verwendet werden  */
+.andreas {
+    width: 500px; /*Breite*/
+    height: 500px; /*Höhe*/
+    background-color: gold; /*Hintergrundfarbe*/
+    color: maroon; /*Schriftfarbe*/
+    padding: 30px; /*Innenabstand*/
+    margin: 50px; /*Außenabstand*/
+    
+    /*Schriftformatierung einzeln*/
+    font-weight: bold; /*Schriftschnitt*/
+    font-size: 14pt; /*Schriftgrösse*/
+    font-family: verdana; /*Schriftart*/
+    
+    /*Schriftformatierung zusammengefasst*/
+    font: normal 16pt arial;
+    
+    /*Rahmen einzeln formatiert*/
+    border-width: 5px; /*Breite*/
+    border-style: dashed; /*Rahmenart*/
+    border-color: green; /*Rahmenfarbe*/
+    
+    /*Rahmen zusammengefasst formatiert*/
+    border: 3px dotted maroon;
+    
+    /*Textausrichtung*/
+    text-align: justify;/*Richtet Text im Blocksatz aus*/
+    text-align: center;/*Richtet Text zentriert aus*/
+    text-align: right;/*Richtet Text rechtsbündig aus*/
+    text-align: left;/*Richtet Text linksbündig aus*/
+    
+    /*Textformatierungen*/
+    text-decoration: underline; /*Unterstreichen*/
+    text-decoration: overline; /*Überstreichen*/
+    text-decoration: line-through; /*Durchstreichen*/
+    text-decoration: underline overline; /*kombiniert*/
+    text-decoration: underline dotted blue; /*Unterstrichen, gepunktet, blau*/
+    
+    
+    
+}
+
+.box
+{
+/*margin-top: 200px; /* Aussenabstand oben */
+/*margin-bottom: 200px; /* Aussenabstand unten */
+/*margin-left: 200px; /* Aussenabstand links */
+/*margin-right: 200px; /* Aussenabstand rechts */
+
+
+margin: 20px 50px; /*Ein Wert betrifft alle vier Seiten*/
+margin: 20px 50px; /* 1. Wert: Oben und Unten, 2. Wert: Links und Rechts */
+margin: 20px 50px 75px; /* 1. Wert: Oben 2. Wert: Links und Rechts 3. Wert: Unten*/
+margin: 20px 50px 75px 100px; /* 1. Wert: Oben, 2. Wert: Rechts, 3. Wert: Unten, 4.Wert: Links*/
+    
+}
+
+
+
